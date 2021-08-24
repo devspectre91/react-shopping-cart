@@ -1,52 +1,75 @@
-#root{
-    min-height: 100vh;
-   
+#root {
+  min-height: 100vh;
 }
 
-
-.size-filter{
-    background-color: rgb(12, 12, 12);
-    color: rgb(243, 237, 237);
-    border: none;
-    margin: 0.2rem;
-    font-size: 0.9rem;
-
+.size-filter {
+  background-color: rgb(12, 12, 12);
+  color: rgb(243, 237, 237);
+  border: none;
+  margin: 0.2rem;
+  font-size: 0.9rem;
 }
-.size-filter:hover{
+.size-filter:hover {
+  color: white;
+}
+.selected {
+  background-color: gold;
+  color: black;
+}
+.card {
+  position: relative;
+  margin-left: 3rem;
+  margin-bottom: 3rem;
+}
+.card:hover {
+  border: 1px solid rgba(45, 160, 226, 0.774);
+}
+.free {
+  position: absolute;
+  top: -0.9rem;
+  right: -0.5rem;
+}
+
+.add-cart {
+  background-color: black;
+  color: white;
+}
+.add-cart:hover {
+  background-color: gold;
+  color: black;
+}
+
+.card-title {
+  font-size: 0.9rem;
+}
+.price {
+  font-size: 0.8rem;
+}
+
+.cart {
+  position: fixed;
+  top: 2rem;
+  cursor: pointer;
+  right: 2rem;
+  color: black;
+  
+}
+.modal-footer{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.no-of-items {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  position:absolute;
+  top:-1.3rem;
+  left: 0.8rem ;
+  align-items: center;
+  justify-content: center;
+  
+  background-color: rgb(115, 145, 67);
   color: white;
  
-}
- .selected{
-    background-color: gold;
-    color: black;
-    
-}
-.card{
-    position: relative;
-    margin-left: 3rem;
-    margin-bottom: 3rem;
-}
-.card:hover{
-    border: 1px solid rgba(45, 160, 226, 0.774);
-}
-.free{
-    position: absolute ;
-    top: -0.9rem;
-    right: -0.5rem;
-}
-
-.add-cart{
-    background-color: black;
-    color: white;
-}
-.add-cart:hover{
-    background-color: gold;
-    color: black;
-}
-
-.card-title{
-    font-size: 0.9rem;
-}
-.price{
-    font-size: 0.8rem;
+  border-radius: 0.75rem;
 }
