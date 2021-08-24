@@ -1,0 +1,52 @@
+#root{
+    min-height: 100vh;
+   
+}
+
+
+.size-filter{
+    background-color: rgb(12, 12, 12);
+    color: rgb(243, 237, 237);
+    border: none;
+    margin: 0.2rem;
+    font-size: 0.9rem;
+
+}
+.size-filter:hover{
+  color: white;
+ 
+}
+ .selected{
+    background-color: gold;
+    color: black;
+    
+}
+.card{
+    position: relative;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+}
+.card:hover{
+    border: 1px solid rgba(45, 160, 226, 0.774);
+}
+.free{
+    position: absolute ;
+    top: -0.9rem;
+    right: -0.5rem;
+}
+
+.add-cart{
+    background-color: black;
+    color: white;
+}
+.add-cart:hover{
+    background-color: gold;
+    color: black;
+}
+
+.card-title{
+    font-size: 0.9rem;
+}
+.price{
+    font-size: 0.8rem;
+}
